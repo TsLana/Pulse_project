@@ -4,6 +4,7 @@
 @import 'base/fonts';
 @import 'base/bootstrap-reboot';
 @import 'base/slick';
+@import 'base/animations';
 @import 'base/general';
 @import 'blocks/forms';
 @import 'blocks/promo';
@@ -16,4 +17,5 @@
 @import 'blocks/catalog';
 @import 'blocks/reviews';
 @import 'blocks/footer';
-
+@import 'blocks/modal';
+@import 'blocks/pageup';

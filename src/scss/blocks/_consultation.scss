@@ -24,4 +24,13 @@
         }
 
     }
+    .error{
+        border:1px solid red;
+    }
+    label.error{
+        color: $second_color;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
