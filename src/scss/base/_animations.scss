@@ -9,3 +9,27 @@
         transform: scale(1);
     }
 }
+
+@keyframes reward{
+    from{
+        transform:  rotate(30deg);
+    }
+    50%{
+        transform: rotate(-30deg);
+    }
+    to{
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes run {
+    from{
+        transform: translateX(25px) rotate(30deg);
+    }
+    50%{
+        transform:translateX(0px) rotate(0deg);
+    }
+    to{
+        transform:translateX(25px) rotate(30deg);
+    }
+}

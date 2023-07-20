@@ -30,8 +30,20 @@
                 @media (max-width: 576px){
                     font-size: 45px;
                 }
-                &_animated{
+                &_heartbeat {
                     animation: heartbeat 2s ease infinite;
+                    &:hover{
+                        animation-play-state: paused;
+                    }
+                }
+                &_reward{
+                    animation: reward 3.5s infinite;
+                    &:hover{
+                        animation-play-state: paused;
+                    }
+                }
+                &_run{
+                    animation: run 2s infinite;
                     &:hover{
                         animation-play-state: paused;
                     }

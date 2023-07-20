@@ -1,7 +1,6 @@
 {
   "name": "run",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +19,9 @@
   "browserslist": [
     "defaults and supports es6-module",
     "maintained node versions"
-  ]
+  ],
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
